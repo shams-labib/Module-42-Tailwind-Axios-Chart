@@ -3,6 +3,7 @@ import { Suspense } from 'react'
 import './App.css'
 import Navber from './components/Navber/Navber'
 import PricingOption from './components/Pricing/PricingOption'
+import ResultChart from './components/ResultChart/ResultChart'
 
 
 const pricingPromise = async ()=>{
@@ -30,6 +31,9 @@ function App() {
        </div>}>
          <PricingOption pricingResult={pricingResult}></PricingOption>
        </Suspense>
+
+     <ResultChart></ResultChart>
+
     </main>
       
     </>
