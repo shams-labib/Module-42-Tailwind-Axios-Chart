@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Basic Plan",
-    "price": 25,
+    "price": "25/Months",
     "duration": "per month",
     "description": "Perfect for beginners who want to start their fitness journey.",
     "features": [
@@ -17,7 +17,7 @@
   {
     "id": 2,
     "name": "Standard Plan",
-    "price": 50,
+    "price": "55/Months",
     "duration": "per month",
     "description": "Ideal for fitness lovers who want flexibility and more support.",
     "features": [
@@ -34,7 +34,7 @@
   {
     "id": 3,
     "name": "Premium Plan",
-    "price": 80,
+    "price": "103/Months",
     "duration": "per month",
     "description": "Best for serious fitness enthusiasts who want complete benefits.",
     "features": [

@@ -25,7 +25,9 @@ function App() {
    </header>
 
     <main>
-       <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
+       <Suspense fallback={<div className='flex justify-center items-center mt-[300px]'>
+        <span className="loading loading-dots loading-xl text-center"></span>
+       </div>}>
          <PricingOption pricingResult={pricingResult}></PricingOption>
        </Suspense>
     </main>
