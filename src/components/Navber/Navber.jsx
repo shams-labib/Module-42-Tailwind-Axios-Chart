@@ -16,23 +16,22 @@ const Navber = () => {
 
   const [open, setOpen] = useState(false)
 
-  const links =  navbar1.map(route => <Link route={route}></Link>)
+  const links =  navbar1.map(route => <Link key={route.id} route={route}></Link>)
 
 
     return (
-         <nav className='flex justify-between mx-10'>
+         <nav className='flex justify-between mx-10 mt-5'>
             <span className='flex' onClick={()=> setOpen(!open)}>  
               {open?<X className='md:hidden'></X>:<Menu className='md:hidden'></Menu>}
 
-              <ul className='md:hidden'>
+              <ul className={`md:hidden absolute duration-500 ${open?'top-8':"-top-40"} bg-white text-black p-3 `}>
                 {links}
               </ul>
               
             <h1 className='mr-3'>My Navber</h1>
             </span>
 
-<ul className='md:flex hidden'>
-    
+              <ul className='md:flex hidden'>
       {
        links
       }
