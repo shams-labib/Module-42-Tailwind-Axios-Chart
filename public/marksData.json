@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Arafat",
+    "subjects": {
+      "chemistry": 78,
+      "physics": 82,
+      "math": 90
+    },
+    "address": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Mitu",
+    "subjects": {
+      "chemistry": 85,
+      "physics": 74,
+      "math": 88
+    },
+    "address": {
+      "city": "Chittagong",
+      "country": "Bangladesh"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Labib",
+    "subjects": {
+      "chemistry": 92,
+      "physics": 89,
+      "math": 95
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sadia",
+    "subjects": {
+      "chemistry": 70,
+      "physics": 65,
+      "math": 72
+    },
+    "address": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Rafi",
+    "subjects": {
+      "chemistry": 88,
+      "physics": 91,
+      "math": 85
+    }
+  },
+  {
+    "id": 6,
+    "name": "Tania",
+    "subjects": {
+      "chemistry": 76,
+      "physics": 80,
+      "math": 68
+    },
+    "address": {
+      "city": "Khulna",
+      "country": "Bangladesh"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Hasib",
+    "subjects": {
+      "chemistry": 95,
+      "physics": 90,
+      "math": 98
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nishat",
+    "subjects": {
+      "chemistry": 60,
+      "physics": 72,
+      "math": 65
+    }
+  },
+  {
+    "id": 9,
+    "name": "Rakib",
+    "subjects": {
+      "chemistry": 82,
+      "physics": 78,
+      "math": 80
+    },
+    "address": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Samira",
+    "subjects": {
+      "chemistry": 89,
+      "physics": 84,
+      "math": 92
+    }
+  }
+]
